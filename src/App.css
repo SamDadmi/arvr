@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.simulation {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1d3d3;
+}
+.patient-profile {
+  margin-top: 20px;
+  border: 1px solid #f4b7b7;
+  padding: 15px;
+  background-color: #671802;
+}
+
+
+.simulation h1 {
+  color: #333;
+  margin: 20px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #671802;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  padding: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hidden {
+  transform: translateX(100%); /* Hidden off-screen */
+}
+
+.sidebar.visible {
+  transform: translateX(0); /* Sidebar visible */
+}
+
+.sidebar h2 {
+  text-align: center;
+  color: #f5d8d8;
+}
+
+.equipment-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #191818;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.equipment-item:hover {
+  background-color: #e7a95f; /* Highlight on hover */
+}
+
+/* Toggle button styles */
+.toggle-button {
+  position: absolute;
+  top: 38px;
+  right: -20;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #deee69;
+  color: rgb(12, 12, 12);
+  padding: 5px;
+  border-radius: 1px;
+  z-index: 2;
+  transition: right 0.1s ease-in-out;
+}
+
+.sidebar.hidden + .toggle-button {
+  right: 0;
+}
+
+.sidebar.visible + .toggle-button {
+  right: 250px; /* Adjust button position when sidebar is visible */
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
