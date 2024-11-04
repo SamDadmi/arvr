@@ -11,12 +11,10 @@ const App = () => {
     // Updated equipment list including monitor, forceps, patient, hospital bed, and suture needle
     const equipmentList = [
         'scalpel', 
-        'forceps', 
         'realistic human heart', 
         'beating heart', 
         'monitor',
         'patient', // New equipment
-        'hospital bed', // New equipment
         'suture needle' // New equipment
     ]; 
 
