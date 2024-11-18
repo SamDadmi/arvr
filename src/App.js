@@ -12,7 +12,6 @@ const App = () => {
     const equipmentList = [
         'scalpel', 
         'realistic human heart', 
-        'beating heart', 
         'monitor',
         'patient', // New equipment
         'suture needle' // New equipment

@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; 
 import App from './App'; // Import App for View Mode
-import Scene from './HeartModel'; // Import Scene for Interactive Mode
+import App2 from './App2'; // Import App2 for Interactive Mode
 import './MainPage.css'; // Import CSS for styling
 
 const MainPage = () => {
@@ -36,7 +36,7 @@ const MainPage = () => {
 
                 {/* Conditionally render based on the selected mode */}
                 {mode === 'view' && <App />} {/* View Mode */}
-                {mode === 'interactive' && <Scene interactiveMode={true} />} {/* Interactive Mode */}
+                {mode === 'interactive' && <App2 />} {/* Interactive Mode */}
             </div>
         </div>
     );
