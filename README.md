@@ -70,8 +70,3 @@ cd interactive-3d-heart
 npm install
 
 npm start
-
-
-
-
-
