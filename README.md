@@ -6,16 +6,6 @@ This repository hosts an advanced interactive 3D visualization project designed 
 This project is designed to support educational purposes and medical training, offering both an immersive visualization experience and interactivity through audio-visual effects.
 
 
-**Table of Contents**
-
-Features
-Technology Stack
-Setup and Installation
-Project Structure
-Detailed Code Explanation
-Future Enhancements
-
-
 **Features**
 
 1. Realistic Heart Model
