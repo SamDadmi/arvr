@@ -7,6 +7,7 @@ This project is designed to support educational purposes and medical training, o
 
 
 **Table of Contents**
+
 Features
 Technology Stack
 Setup and Installation
@@ -16,6 +17,7 @@ Future Enhancements
 
 
 **Features**
+
 1. Realistic Heart Model
 The main focus is on creating a high-fidelity 3D model of the human heart, using multiple textures like albedo, specular, normal, glossiness, ambient occlusion (AO), and emission maps.
 Users can view the static model or interactively toggle to a dynamic, beating heart animation.
@@ -35,7 +37,9 @@ Three.js: JavaScript 3D library that provides the foundation for all 3D effects,
 GLTFLoader: Used to load GLTF 3D models, which are optimized for the web.
 OrbitControls: Allows users to manipulate the camera around the 3D scene.
 
+
 **Detailed Code Explanation**
+
 1. Main Components
 HeartModel: Loads the static heart model with textures for a realistic appearance. Double-click toggles to the beating heart.
 BeatingHeartModel: Plays an animation simulating a beating heart with a pulsing scale effect and sound.
@@ -64,6 +68,7 @@ We welcome contributions that can help improve this project. Please open an issu
 
 
 **Setup and Installation**
+
 This will launch the application at http://localhost:3000.
 
 ```bash
