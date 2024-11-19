@@ -21,6 +21,7 @@ High-quality lighting, including ambient, directional, point, and spot lights wi
 Emissive effects simulate internal glowing areas, adding realism to the heart.
 
 **Technology Stack**
+
 React: Frontend framework for managing UI and state.
 React Three Fiber: React renderer for Three.js, enabling the integration of 3D models within the React ecosystem.
 Three.js: JavaScript 3D library that provides the foundation for all 3D effects, animations, and lighting.
@@ -50,6 +51,7 @@ Heartbeat sound is triggered in synchronization with the animation, enhancing re
 
 
 **Future Enhancements**
+
 Expanded Model Library: Integrate additional medical models to enhance the simulation scope.
 Advanced Interactions: Introduce haptic feedback for an even more immersive experience.
 Medical Annotation: Label various parts of the heart and instruments with interactive tooltips or pop-ups.
