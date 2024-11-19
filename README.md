@@ -1,3 +1,4 @@
+![mainpage](https://github.com/user-attachments/assets/8433c774-f177-4c1f-9c53-867d57afb811)
 **Interactive 3D Heart Visualization**
 This repository hosts an advanced interactive 3D visualization project designed using React and Three.js via the React Three Fiber library. The primary feature of this project is an anatomically accurate, interactive heart model that allows users to toggle between a static and a beating heart, enhanced by realistic textures and materials.
 This project is designed to support educational purposes and medical training, offering both an immersive visualization experience and interactivity through audio-visual effects.
