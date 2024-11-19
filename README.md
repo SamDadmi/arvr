@@ -56,6 +56,7 @@ Expanded Model Library: Integrate additional medical models to enhance the simul
 Advanced Interactions: Introduce haptic feedback for an even more immersive experience.
 Medical Annotation: Label various parts of the heart and instruments with interactive tooltips or pop-ups.
 Contributing
+
 We welcome contributions that can help improve this project. Please open an issue first to discuss potential changes or features. For major changes, ensure to first discuss what you would like to change.
 
 
