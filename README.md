@@ -1,12 +1,6 @@
-
-
-https://github.com/user-attachments/assets/b374f556-eb82-4257-bede-e74122d58b2f
-
-
+![mainpage](https://github.com/user-attachments/assets/8433c774-f177-4c1f-9c53-867d57afb811)
 
 https://github.com/user-attachments/assets/d1fa7e3f-5108-47e4-95cb-b52fc02b5f1e
-
-![mainpage](https://github.com/user-attachments/assets/8433c774-f177-4c1f-9c53-867d57afb811)
 
 **Interactive 3D Heart Visualization**
 
