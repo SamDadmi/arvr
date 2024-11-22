@@ -110,6 +110,4 @@ We welcome contributions to improve this project.
      ```bash
      npm start
      ```
-## Contributors
 
-- **Sameeksha Dadmi **
