@@ -3,74 +3,90 @@
 
 https://github.com/user-attachments/assets/d1fa7e3f-5108-47e4-95cb-b52fc02b5f1e
 
-**Interactive 3D Heart Visualization**
+# Interactive 3D Heart Visualization
 
-This repository hosts an advanced interactive 3D visualization project designed using React and Three.js via the React Three Fiber library. The primary feature of this project is an anatomically accurate, interactive heart model that allows users to toggle between a static and a beating heart, enhanced by realistic textures and materials.
-This project is designed to support educational purposes and medical training, offering both an immersive visualization experience and interactivity through audio-visual effects.
+This repository hosts an advanced interactive 3D visualization project designed using **React** and **Three.js** via the **React Three Fiber** library. It features an anatomically accurate, interactive heart model that toggles between a static and beating heart, enhanced by realistic textures and materials. This project supports educational purposes and medical training by offering an immersive visualization experience with audio-visual effects.
 
+---
 
-**Features**
+## Table of Contents
+- [Features](#features)
+- [Technology Stack](#technology-stack)
+- [Detailed Code Explanation](#detailed-code-explanation)
+- [Future Enhancements](#future-enhancements)
+- [Contributing](#contributing)
+- [Setup and Installation](#setup-and-installation)
 
-1. Realistic Heart Model
-The main focus is on creating a high-fidelity 3D model of the human heart, using multiple textures like albedo, specular, normal, glossiness, ambient occlusion (AO), and emission maps.
-Users can view the static model or interactively toggle to a dynamic, beating heart animation.
-2. Interactive Components
-Supports double-click interaction to toggle the heart between static and beating modes.
-Accompanied by a realistic heartbeat sound upon interaction.
-3. 3D Models of Medical Instruments
-Additional 3D models such as scalpel, monitor, and forceps are included to simulate a more comprehensive medical setting.
-4. Dynamic Lighting and Emissive Effects
-High-quality lighting, including ambient, directional, point, and spot lights with shadow-casting, creates an immersive scene.
-Emissive effects simulate internal glowing areas, adding realism to the heart.
+---
 
-**Technology Stack**
+## Features
 
-React: Frontend framework for managing UI and state.
-React Three Fiber: React renderer for Three.js, enabling the integration of 3D models within the React ecosystem.
-Three.js: JavaScript 3D library that provides the foundation for all 3D effects, animations, and lighting.
-GLTFLoader: Used to load GLTF 3D models, which are optimized for the web.
-OrbitControls: Allows users to manipulate the camera around the 3D scene.
+### **1. Realistic Heart Model**
+- High-fidelity 3D heart model using textures such as **albedo**, **specular**, **normal**, **glossiness**, **ambient occlusion (AO)**, and **emission maps**.
+- Toggle between a static model and a beating heart animation.
 
+### **2. Interactive Components**
+- Double-click interaction toggles the heart between static and beating modes.
+- Realistic heartbeat sound plays in sync with the animation.
 
-**Detailed Code Explanation**
+### **3. 3D Models of Medical Instruments**
+- Includes 3D models of a **scalpel**, **monitor**, and **forceps** for a simulated medical setting.
 
-1. Main Components
-HeartModel: Loads the static heart model with textures for a realistic appearance. Double-click toggles to the beating heart.
-BeatingHeartModel: Plays an animation simulating a beating heart with a pulsing scale effect and sound.
-MonitorModel, ScalpelModel, ForcepsModel: These models add interactive elements to the scene, enriching the educational context.
+### **4. Dynamic Lighting and Emissive Effects**
+- High-quality lighting with **ambient**, **directional**, **point**, and **spotlights**, including shadow-casting.
+- **Emissive effects** simulate internal glowing areas of the heart.
 
-3. Lighting and Texturing
-The scene utilizes multiple lighting sources to simulate a clinical environment:
-AmbientLight for subtle general lighting.
-DirectionalLight to cast shadows and highlight the 3D objects.
-PointLight with red tones and SpotLight for depth and realistic intensity effects.
+---
 
-5. Interaction Handling
-User Interactions:
-Double-click on the heart to toggle between static and animated models.
-Click on the monitor to trigger or pause the animation and sound.
-Sound Effects:
-Heartbeat sound is triggered in synchronization with the animation, enhancing realism.
+## Technology Stack
 
+- **React**: Frontend framework for managing UI and state.
+- **React Three Fiber**: React renderer for Three.js to integrate 3D models.
+- **Three.js**: JavaScript 3D library for 3D effects, animations, and lighting.
+- **GLTFLoader**: Loads optimized GLTF 3D models.
+- **OrbitControls**: Enables camera manipulation around the 3D scene.
 
-**Future Enhancements**
+---
 
-Expanded Model Library: Integrate additional medical models to enhance the simulation scope.
-Advanced Interactions: Introduce haptic feedback for an even more immersive experience.
-Medical Annotation: Label various parts of the heart and instruments with interactive tooltips or pop-ups.
-Contributing
+## Detailed Code Explanation
 
-We welcome contributions that can help improve this project. Please open an issue first to discuss potential changes or features. For major changes, ensure to first discuss what you would like to change.
+### **Main Components**
+1. **HeartModel**: Loads the static heart model with textures. Double-click toggles to the beating heart.
+2. **BeatingHeartModel**: Plays the beating heart animation with a pulsing scale effect and sound.
+3. **MonitorModel, ScalpelModel, ForcepsModel**: Add interactive elements to enrich the educational context.
 
+### **Lighting and Texturing**
+- **AmbientLight**: Subtle general lighting.
+- **DirectionalLight**: Casts shadows and highlights objects.
+- **PointLight**: Adds depth with red tones.
+- **SpotLight**: Adds intensity and realism to the scene.
 
-**Setup and Installation**
+### **Interaction Handling**
+- **User Interactions**: 
+  - Double-click the heart to toggle between static and animated models.
+  - Click the monitor to trigger or pause animations and sounds.
+- **Sound Effects**: Heartbeat sound is synchronized with the animation for added realism.
 
-This will launch the application at http://localhost:3000.
+---
 
-```bash
-git clone https://github.com/username/interactive-3d-heart.git
-cd interactive-3d-heart
+## Future Enhancements
+- **Expanded Model Library**: Add more medical models to broaden the simulation.
+- **Advanced Interactions**: Introduce haptic feedback for immersive experiences.
+- **Medical Annotation**: Label parts of the heart and instruments with tooltips or pop-ups.
 
-npm install
+---
 
-npm start
+## Contributing
+We welcome contributions to improve this project.  
+- Open an issue first to discuss potential changes or features.  
+- For major changes, discuss them in advance to ensure alignment.  
+
+---
+
+## Setup and Installation
+
+Follow these steps to set up and run the project:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/interactive-3d-heart.git
