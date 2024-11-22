@@ -85,8 +85,31 @@ We welcome contributions to improve this project.
 
 ## Setup and Installation
 
-Follow these steps to set up and run the project:
+1. **Clone the repository:**
+   - First, clone the repository to your local machine using Git. Open your terminal or command prompt and run:
+     ```bash
+     git clone https://github.com/username/interactive-3d-heart.git
+     ```
+   - This will create a local copy of the project files on your computer.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/username/interactive-3d-heart.git
+2. **Navigate to the project directory:**
+   - Once the repository is cloned, navigate into the project directory using the `cd` (change directory) command:
+     ```bash
+     cd interactive-3d-heart
+     ```
+
+3. **Install the project dependencies:**
+   - Now, install all the required dependencies for the project. Run the following command in the terminal:
+     ```bash
+     npm install
+     ```
+   - This will download and install the necessary packages for the project.
+
+4. **Start the development server:**
+   - After the installation completes, start the development server by running:
+     ```bash
+     npm start
+     ```
+## Contributors
+
+- **Sameeksha Dadmi **
